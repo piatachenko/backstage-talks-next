@@ -348,40 +348,40 @@ export default function App() {
             </article>
           </section>
         </main>
-        <aside className="absolute bottom-5 right-[0.95rem] flex flex-col gap-[0.23rem]">
+        <aside className="absolute bottom-5 right-[0.95rem] flex flex-col">
           <Link
             href="#issue6"
-            className={link === "issue6" ? "" : "font-normal"}
+            className={`mt-[0.23rem] ${link === "issue6" ? "" : "font-normal"}`}
           >
             Issue #6
           </Link>
           <Link
             href="#issue5"
-            className={link === "issue5" ? "" : "font-normal"}
+            className={`mt-[0.23rem] ${link === "issue5" ? "" : "font-normal"}`}
           >
             Issue #5
           </Link>
           <Link
             href="#issue4"
-            className={link === "issue4" ? "" : "font-normal"}
+            className={`mt-[0.23rem] ${link === "issue4" ? "" : "font-normal"}`}
           >
             Issue #4
           </Link>
           <Link
             href="#issue3"
-            className={link === "issue3" ? "" : "font-normal"}
+            className={`mt-[0.23rem] ${link === "issue3" ? "" : "font-normal"}`}
           >
             Issue #3
           </Link>
           <Link
             href="#issue2"
-            className={link === "issue2" ? "" : "font-normal"}
+            className={`mt-[0.26rem] ${link === "issue2" ? "" : "font-normal"}`}
           >
             Issue #2
           </Link>
           <Link
             href="#issue1"
-            className={link === "issue1" ? "" : "font-normal"}
+            className={`mt-[0.2rem] ${link === "issue1" ? "" : "font-normal"}`}
           >
             Issue #1
           </Link>
